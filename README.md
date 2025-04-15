@@ -1,2 +1,2 @@
 # MediBot_Chatbot-for-Medical-Issues
-MediBot is a Streamlit-based chatbot that answers medical questions using a custom knowledge base. It loads medical PDFs, processes the text into embeddings using HuggingFace models, and stores them in a FAISS vector database.
+MediBot is a Streamlit-based chatbot that answers medical questions using a custom knowledge base. It loads medical PDFs, processes the text into embeddings using HuggingFace models, and stores them in a FAISS vector database. When a user asks a question, it retrieves relevant information and uses the Mistral-7B language model to generate clear, reliable, and easy-to-understand medical answers.
